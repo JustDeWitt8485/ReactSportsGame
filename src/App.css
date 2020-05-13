@@ -49,7 +49,6 @@ html {
 }
 
 #G1 {
-  font-family: 'Cinzel Decorative', cursive;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -98,7 +97,6 @@ img {
 }
 
 .Team3 {
-  font-family: 'Faster One', cursive;
   font-weight: lighter;
   font-style: italic;
   color: whitesmoke;
@@ -110,7 +108,6 @@ img {
 }
 
 .Team4 {
-  font-family: 'Orbitron', sans-serif;
   font-weight: lighter;
   font-style: italic;
   color: green;
