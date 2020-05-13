@@ -36,14 +36,17 @@ class Team extends React.Component {
               console.log("case 3")
               missAudio.play();
               break;
+              default:
+                break;
+              
 
       };
-      {
+      
           this.setState((state) => ({
               ShotAtt: state.ShotAtt + 1
 
           }));
-      };
+      
   };
 
   render() {
@@ -54,7 +57,7 @@ class Team extends React.Component {
               {<h1 id="homeT">{this.props.home}</h1>}
               {<h1 id="tName">{this.props.name}</h1>}
               {<p className="scoreSize">{JSON.stringify(this.state.Score)}</p>}
-              <img src={"./" + this.props.img + ".jpg"} />
+              <img alt="logo"src={"./" + this.props.img + ".jpg"} />
               <button onClick={this.shotHandler}><h3>ShotAtt:{JSON.stringify(this.state.ShotAtt)}</h3>
                   <h3>ShotsM:{JSON.stringify(this.state.ShotsM)}</h3>
                   <h3>{(this.state.ShotsM) / (this.state.ShotAtt) ?
