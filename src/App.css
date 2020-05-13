@@ -36,3 +36,101 @@
     transform: rotate(360deg);
   }
 }
+:root {
+  box-sizing: border-box;
+}
+
+html {
+  margin: 0;
+  background-image: url(./basketballCourt.jpg);
+  background-size: contain;
+  background-repeat: repeat;
+  background-position: inherit;
+}
+
+#G1 {
+  font-family: 'Cinzel Decorative', cursive;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: whitesmoke;
+  background-color: black;
+  border: 8px ridge black;
+  font-size: x-large;
+  margin-top: auto;
+}
+
+#G2 {
+  
+  position: relative;
+  margin-top: 43em;
+}
+
+img {
+  width: 17em;
+  height: 16em;
+}
+
+.Team1 {
+  font-family: 'Cinzel Decorative', cursive;
+  font-weight: lighter;
+  font-style: oblique;
+  color: lawngreen;
+  background-color: black;
+  width: 17em;
+  height: 20em;
+  margin-left: 20em;
+  margin-top: 6em;
+  border: 1px solid black;
+}
+
+.Team2 {
+  font-family: 'Kaushan Script', cursive;
+  font-weight: lighter;
+  font-style: italic;
+  color: indigo;
+  background-color: grey;
+  width: 17em;
+  height: 20em;
+  margin-left: 63em;
+  margin-top: -22em;
+  position: relative;
+}
+
+.Team3 {
+  font-family: 'Faster One', cursive;
+  font-weight: lighter;
+  font-style: italic;
+  color: whitesmoke;
+  background-color: navy;
+  width: 17em;
+  height: 20em;
+  margin-left: 20em;
+  margin-top: -2em;
+}
+
+.Team4 {
+  font-family: 'Orbitron', sans-serif;
+  font-weight: lighter;
+  font-style: italic;
+  color: green;
+  background-color: black;
+  width: 17em;
+  height: 20em;
+  margin-left: 63em;
+  margin-top: -24em;
+}
+
+#tName {
+  font-size: 3em;
+  margin-left: 10px;
+}
+
+.scoreSize {
+  font-size: 60px;
+}
+
+button {
+  width: 25.5em;
+  height: 12em;
+}
